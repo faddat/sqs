@@ -7,6 +7,7 @@
 		"environment": "sqs-dev"
 	},
 	"grpc-ingester": {
+		"max-receive-msg-size-bytes": 33554432,
 		"plugins": [
 			{
 				"name": "orderbook-fillbot-plugin",

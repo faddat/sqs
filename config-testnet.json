@@ -16,6 +16,9 @@
             6688
         ]
     },
+    "grpc-ingester": {
+        "max-receive-msg-size-bytes": 33554432
+    },
     "otel": {
         "enabled": false
     }
